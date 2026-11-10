@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 // Set your target PC's MAC address
-const TARGET_MAC = '00:11:22:33:44:55'; 
+const TARGET_MAC = 'A4-BB-6D-66-FD-D5'; 
 
 // Pre-computed SHA-256 hash of your chosen password 
 // (Default hash below corresponds to the password: "mySecurePassword123")
