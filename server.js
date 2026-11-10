@@ -12,7 +12,7 @@ const TARGET_MAC = '00:11:22:33:44:55';
 
 // Pre-computed SHA-256 hash of your chosen password 
 // (Default hash below corresponds to the password: "mySecurePassword123")
-const PASSWORD_HASH = 'f192582ef5a0555594b79f8d702290961148bc554374584e33e21808bbbc2aa7';
+const PASSWORD_HASH = 'e45d90957eec7387726c6a1b174da7b566a24ff4cb060dcbcdfebb931a93ffe3';
 
 app.post('/wake', (req, res) => {
     const { passwordHash } = req.body;
